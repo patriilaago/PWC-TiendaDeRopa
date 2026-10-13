@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo de Vigo</title>
+    <link rel="stylesheet" href="mapStyle.css">
+</head>
+
+<body>
+
+    <!--BARRA DE NAVEGACIÓN-->
+    <header class="header">
+        <div class="logo">
+            <a href="../Menu.html">
+                <img src="Images/LOGO-NO-FONDO.png" alt="Logo de la marca" height="40">
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../About Us/blog.html">BLOG</a></li>
+                <li><a href="map.html">TIENDAS</a></li>
+                <li><a href="../Carrito/Carrito.html" id="cart-link">Carrito (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="store-locator">
+        <h1>Descubre nuestras tiendas en Europa</h1>
+        <p>Encuentra nuestras tiendas físicas en las principales ciudades de Europa. Descubre colecciones exclusivas y recibe atención personalizada cerca de ti.</p>
+    
+        <!-- Contenedor principal -->
+        <div class="store-content">
+            <!-- Mapa -->
+            <div class="map-container">
+                <img src="Images/mapa.png" alt="Mapa de Europa" usemap="#europe-map" class="map-image">
+            </div>
+    
+            <!-- Tiendas destacadas -->
+            <div class="store-row">
+                <div class="store-card">
+                    <p>Champs-Élysées, París</p>
+                    <a href="https://www.google.com/maps/place/Champs-%C3%89lys%C3%A9es,+Par%C3%ADs,+Francia/@48.8683218,2.2984552,15z/data=!3m1!4b1!4m6!3m5!1s0x47e66fc518637631:0x7c6b92d2c2465999!8m2!3d48.8662294!4d2.3077957!16s%2Fg%2F121qgdnm?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" 
+                    class="btn btn-primary">Ver ubicación</a>
+                </div>
+                <div class="store-card">
+                    <p>Gran Vía, Madrid</p>
+                    <a href="https://www.google.com/maps/place/Gran+V%C3%ADa,+Centro,+Madrid,+Espa%C3%B1a/@40.418937,-3.6994706,17z/data=!3m1!4b1!4m6!3m5!1s0xd42287d6da3df33:0xe119406d894c5d21!8m2!3d40.4189329!4d-3.6968903!16zL20vMDlzMDdi?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" 
+                    class="btn btn-primary">Ver ubicación</a>
+                </div>
+                <div class="store-card">
+                    <p>Alexanderplatz, Berlín</p>
+                    <a href="https://www.google.com/maps/place/Alexanderplatz/@52.5219846,13.4107257,17z/data=!3m1!4b1!4m6!3m5!1s0x47a84e1edb11286f:0x30fc01c366e4166e!8m2!3d52.5219814!4d13.413306!16zL20vMF8yYw?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" 
+                    class="btn btn-primary">Ver ubicación</a>
+                </div>
+            </div>
+            
+            <div class="store-row">
+                <div class="store-card">
+                    <p>Oxford Street, Londres</p>
+                    <a href="https://google.com/maps/place/Oxford+St,+London,+Reino+Unido/@51.5152564,-0.1446149,17z/data=!3m1!4b1!4m6!3m5!1s0x48761ad554c335c1:0xda2164b934c67c1a!8m2!3d51.5152531!4d-0.1420346!16zL20vMDFoYzk0?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" 
+                    class="btn btn-primary">Ver ubicación</a>
+                </div>
+                <div class="store-card">
+                    <p>Dam Square, Ámsterdam</p>
+                    <a href="https://www.google.com/maps/place/Dam,+Amsterdam,+Pa%C3%ADses+Bajos/@52.3730983,4.890521,17z/data=!3m1!4b1!4m6!3m5!1s0x47c609c73b4b14ef:0x7e86dfc7e2ced272!8m2!3d52.3730701!4d4.8926473!16zL20vMDJ6Zzlk?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" 
+                    class="btn btn-primary">Ver ubicación</a>
+                </div>
+                <div class="store-card">
+                    <p>Piazza Navona, Roma</p>
+                    <a href="https://www.google.com/maps/place/Piazza+Navona,+00186+Roma+RM,+Italia/@41.8989526,12.470518,17z/data=!3m1!4b1!4m6!3m5!1s0x132f604ffb713ff3:0xfe2aa2df10e2f0ff!8m2!3d41.8991622!4d12.4730719!16s%2Fg%2F11bw3xzz36?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" 
+                    class="btn btn-primary">Ver ubicación</a>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    
+    <!-- Carrito -->
+    <script src="../scripts.js"></script>
+    
+    
+</body>
+</html>
